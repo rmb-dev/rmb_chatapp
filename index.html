@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Simple Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+    <h1>Chat Room</h1>
+
+    <main>
+      <ol id="history">
+        <li>Rom: What's up?</li>
+        <li>Rom: You can start chatting here!</li>
+      </ol>
+      <form>
+        <input id="initials">
+        <input id="message">
+        <button>Send!</button>
+      </form>
+    </main>
+
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
