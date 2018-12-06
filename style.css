@@ -5,3 +5,35 @@ body {
   font-size: 15px;
   margin: 25px;
 }
+
+main {
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  box-shadow: 3px 3px 12px #c8c8c8;
+  margin: 20px auto;
+  max-width: 450px;
+  padding: 20px;
+}
+
+ol {
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li:nth-child(odd) {
+  background-color: #e3e3e3;
+  border-radius: 6px;
+}
+
+form {
+  background-color: lightsteelblue;
+  border-radius: 6px;
+  margin: 0;
+  padding: 10px;
+}
